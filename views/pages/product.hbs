@@ -1,0 +1,22 @@
+<h1>Product</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <td>{{product.name}}</td>
+    </tr>
+    <tr>
+        <th>Description</th>
+        <td>{{product.description}}</td>
+    </tr>
+    <tr>
+        <th>Price</th>
+        <td>${{product.price}}</td>
+    </tr>
+</table>
+<br>
+
+<form action="/delete" method="post">
+    <input type="text" name="id" value={{product.id}} hidden>
+    <input type="submit" style="color:red" value="Delete">
+</form>
