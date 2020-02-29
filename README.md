@@ -1,4 +1,4 @@
-### itesm-ldaw-crud-in-nodejs
+### itesm-ldaw-01-crud-in-nodejs
 
 # CRUD en Node.js
 ## By: José Alberto Jurado
